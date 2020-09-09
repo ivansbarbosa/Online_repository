@@ -1,0 +1,28 @@
+New repository
+1 - Open git bash in your local repository.
+2 - git init [name repository]
+	ex: git init New_repository
+3 - create an [online repository]
+	ex: Online_repository
+4 - git remote add origin [url]
+	ex: git remote add origin https://github.com/ivansbarbosa/Online_repository.git
+5 - git add .
+7 - git status
+6 - git commit -m first_commit
+7 - git --set-upstream origin master
+    git -u origin master (shorthand flag - used with the very
+--------------------------------------------------------------------
+Change clone repository
+
+1 - git clone
+2 - git add .
+3 - git status
+4 - git commit -m second_commit
+5 - git push
+----------------------------------------------------------------------
+Create new branch
+
+1 - git checkout -b [new_branch]
+
+
+
