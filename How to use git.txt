@@ -9,8 +9,8 @@ New repository
 5 - git add .
 7 - git status
 6 - git commit -m first_commit
-7 - git --set-upstream origin master
-    git -u origin master (shorthand flag - used with the very
+7 - git push --set-upstream origin master
+    git push -u origin master (shorthand flag - used with the very
 --------------------------------------------------------------------
 Change clone repository
 
@@ -23,6 +23,20 @@ Change clone repository
 Create new branch
 
 1 - git checkout -b [new_branch]
+	ex: git checkou -b new_branch
+2 - git add .
+3 - git status
+4 - git commit -m third_commit
+5 - git push -u origin new_branch
+----------------------------------------------------------------- 
+Up date New repository
+
+1 - git pull origin master
+2 - git pull origin new_branch (up date specific branch)
+
+
+
+
 
 
 
